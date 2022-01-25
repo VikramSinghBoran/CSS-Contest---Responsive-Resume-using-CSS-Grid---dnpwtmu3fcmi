@@ -6,4 +6,34 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.main-content{
+    display: grid;
+    border: 1px solid black ;
+    grid-template-columns: 300px 700px;
+    min-height: 1000px;
+    width: 90%;
+}
+
+.left-section{
+    grid-column: span 1;
+}
+
+.right-section{
+    grid-column: span 1 / span 2;
+    
+}
+
+.left-content{
+    padding: 1rem 1rem;
+}
+
+.profile-image{
+    padding: 1rem 1rem;
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 5px solid white;
+    border-radius: 30%;
+}
+
 /* Write CSS code below */
